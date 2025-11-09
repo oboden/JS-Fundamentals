@@ -1,5 +1,4 @@
-function sentence (param1, param2) {
-  console.log(`${param1} is ${param2}`)
-}
+const arg1 = process.argv[2];
+const arg2 = process.argv[3];
 
-sentence();
+console.log(`${arg1} is ${arg2}`);
