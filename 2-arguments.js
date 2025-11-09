@@ -1,14 +1,9 @@
-const newFunc = function () {
-  return arguments.length
-}
-
-const result = newFunc()
-console.log(result);
-
-if (result === 0) {
+const newFunc = function (args) {
+ if(arguments.length === 0) {
   console.log('No argument')
-} else if (result === 1) {
-  console.log('Argument found')
-} else {
+ } else if (arguments.length === 1); {
+  console.log('Argument found');
+ } else {
   console.log('Arguments found')
+ }
 }
