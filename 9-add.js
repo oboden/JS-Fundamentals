@@ -2,4 +2,4 @@ function add (a, b) {
   console.log(a + b)
 }
 
-add();
+add(Number, Number);
