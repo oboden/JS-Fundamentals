@@ -1,4 +1,4 @@
-function argNum () {
+function argNum (arg1, arg2, arg3) {
   if (argNum.length === 0) {
     console.log('No Argument');
   } else if (argNum.length === 1) {
