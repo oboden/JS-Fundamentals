@@ -1,10 +1,10 @@
-const newFunc = function (name) {
+const newFunc = function () {
 
 }
-  if (newFunc === 0) {
+if (newFunc === 0 ) {
   console.log('No argument')
 } else if (newFunc === 1) {
-  console.log('Arguments found')
-} else {
   console.log('Argument found')
+} else {
+  console.log('Arguments found')
 }
