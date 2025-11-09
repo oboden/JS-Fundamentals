@@ -6,6 +6,6 @@ if (newFunc === undefined) {
   console.log('No argument')
 } else if (newFunc !== 1) {
   console.log('Argument found')
-} else if (newFunc > 1) {
+} else {
   console.log('Arguments found')
 }
