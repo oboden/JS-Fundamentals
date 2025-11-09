@@ -8,4 +8,4 @@ function argNum () {
   }
 };
 
-argNum();
+argNum(...process.argv.slice(2));
