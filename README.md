@@ -1,0 +1,1 @@
+This is my javasvript fundamentals practice
