@@ -1,7 +1,8 @@
-const newFunc = function () {
-  console.log(arguments.length)
+const newFunc = function (name, age) {
+  return arguments.length
 }
-const result = newFunc()
+
+const result = newFunc('a', 24)
 console.log(result);
 
 if (result === 0) {
