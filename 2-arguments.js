@@ -1,11 +1,12 @@
-const newFunc = function (name) {
-  console.log(`New person ${name}`)
+const newFunc = function () {
+  console.log(arguments.length)
 }
-console.log(newFunc('Michael'));
+const result = newFunc()
+console.log(result);
 
-if (newFunc()) {
+if (result === 0) {
   console.log('No argument')
-} else if (newFunc('')) {
+} else if (result === 1) {
   console.log('Argument found')
 } else {
   console.log('Arguments found')
