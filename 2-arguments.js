@@ -7,3 +7,5 @@ function argNum () {
     console.log('Arguments found');
   }
 };
+
+argNum();
