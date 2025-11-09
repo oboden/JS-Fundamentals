@@ -1,6 +1,6 @@
 function argNum () {
   if (arguments.length === 0) {
-    console.log('No Argument');
+    console.log('No argument');
   } else if (arguments.length === 1) {
     console.log('Argument found');
   } else {
